@@ -1,1 +1,29 @@
-/*  your css code here. If applicable */
+body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #main{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(194, 192, 192);
+        /* opacity: 50%; */
+        width: 500px;
+    }
+    #band{
+        background-color: #ffff;            
+        width: 400px;
+        margin: 10px;
+        list-style: square;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+    li{
+        width: calc(100%-1vw);
+        padding: 20px;
+        border-bottom: 1px solid rgb(194, 192, 192);
+    }
